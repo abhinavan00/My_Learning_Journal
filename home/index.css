@@ -52,7 +52,7 @@ nav {
 ====================== */
 header {
     height: 40vh;
-    background: rgba(0, 0, 0, 0.5) url('images/hero-img.jpg') center / cover;
+    background: rgba(0, 0, 0, 0.5) url('../images/hero-img.jpg') center / cover;
     background-blend-mode: multiply;
     color: white;
     display: flex;
@@ -65,3 +65,24 @@ header {
 header div {
     width: 90%;
 }
+
+/* ==============
+    MAIN > Section
+================= */
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog-post {
+    width: 90%;
+    margin: 3em auto;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-date, .blog-body {
+    color: #505050;
+} 

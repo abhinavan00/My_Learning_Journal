@@ -76,11 +76,14 @@ section {
 
 .blog-post {
     width: 90%;
-    margin: 3em auto;
+    margin: 3em auto 0;
 }
 
 .blog-img {
     width: 100%;
+    height: 35vh;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .blog-date, .blog-body {

@@ -4,7 +4,7 @@ body, * {
 }
 
 /* =================
-NAVIGATION
+    NAVIGATION
 ==================== */
 nav {
     display: flex;
@@ -45,4 +45,23 @@ nav {
 
 .nav-links:hover {
     text-decoration: underline;
+}
+
+/* ===================
+        HEADER
+====================== */
+header {
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.5) url('images/hero-img.jpg') center / cover;
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    align-items: end;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+header div {
+    width: 90%;
 }

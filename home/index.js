@@ -1,4 +1,5 @@
 import articles from "../articles.js";
+import { navAndFooter } from "../utility.js";
 
 
 function getArticles() {
@@ -20,6 +21,7 @@ function getArticles() {
 }
 
 function render() {
+    navAndFooter()
     document.getElementById('articles-section').innerHTML = getArticles()
 }
 

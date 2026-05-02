@@ -1,51 +1,4 @@
-body, * {
-    font-family: "Source Sans 3", sans-serif;
-    margin: 0;
-}
 
-/* =================
-    NAVIGATION
-==================== */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.25em 1.125em;
-    border: 1px solid black;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 0.2em;
-}
-
-.logo-img {
-    width: 15%;
-}
-
-.logo-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.nav-options-container {
-    display: flex;
-    gap: 2.5em;
-}
-
-.nav-links {
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.nav-links:hover {
-    text-decoration: underline;
-}
 
 /* ===================
         HEADER
@@ -64,6 +17,18 @@ header {
 
 header div {
     width: 90%;
+}
+
+.hero-article {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-article:hover {
+    text-decoration: underline;
 }
 
 /* ==============
@@ -90,26 +55,3 @@ section {
 .blog-date, .blog-body {
     color: #505050;
 } 
-
-/* =================
-    FOOTER
-==================== */
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #202020;
-    color: white;
-    height: 10vh;
-    margin-top: 3em;
-}
-
-.footer-title {
-    font-size: 0.75rem;
-    font-weight: bold;
-}
-
-.copyright {
-    font-size: 0.75rem;
-}

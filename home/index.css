@@ -72,6 +72,7 @@ header div {
 section {
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 1em;
 }
 
 .blog-post {
@@ -89,3 +90,26 @@ section {
 .blog-date, .blog-body {
     color: #505050;
 } 
+
+/* =================
+    FOOTER
+==================== */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #202020;
+    color: white;
+    height: 10vh;
+    margin-top: 3em;
+}
+
+.footer-title {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}

@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1.25em 1.125em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logo-container {
@@ -47,13 +47,49 @@ nav {
     text-decoration: underline;
 }
 
+/* ===================
+    ARTICLE MAIN SECTION
+====================== */
+.article-main {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3em auto 0;
+    gap: 2.5em;
+}
+
+.article-main-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.article-main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+
+.article-main-body-para {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* ==================
+    RECENT POSTS HEADING
+===================== */
+.recent-posts-heading {
+    text-align: center;
+    margin: 4em auto 0;
+}
+
 /* =================
     ARTICLES SECTION
 ==================== */
 section {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 
 .blog-post {

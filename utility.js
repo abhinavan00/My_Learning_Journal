@@ -8,7 +8,7 @@ export function navAndFooter() {
         </div>
         <div class="nav-options-container">
             <a class="nav-links" href="../home/index.html">Home</a>
-            <a class="nav-links" href="">About me</a>
+            <a class="nav-links" href="../about/about.html">About me</a>
         </div>
     `
     document.querySelector('footer').innerHTML = `

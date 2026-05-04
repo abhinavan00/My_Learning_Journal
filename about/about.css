@@ -1,0 +1,8 @@
+/* ================
+    PROFILE IMAGE
+=================== */
+.profile-img {
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}

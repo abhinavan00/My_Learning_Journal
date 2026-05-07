@@ -32,5 +32,5 @@ export function getArticles() {
                 </div>
             </div>
         `
-    }).join('')
+    })
 }

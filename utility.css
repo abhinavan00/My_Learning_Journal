@@ -61,6 +61,7 @@ main {
 section {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 2em 0;
     margin-bottom: 3em;
 }
 

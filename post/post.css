@@ -3,8 +3,10 @@
 ====================== */
 .article-main {
     width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 3em auto 0;
     gap: 2.5em;
 }
@@ -42,7 +44,7 @@
         ARTICLE MAIN SECTION
     ======================= */
     .article-main-header {
-        max-width: 850px;
+        max-width: 90%;
     }
 
     .article-main-heading {
@@ -51,8 +53,11 @@
 
     .article-main-img {
         object-fit: cover;
-        max-width: 970px;
         max-height: 500px;
+    }
+
+    .article-main-body {
+        max-width: 90%;
     }
 
     .article-main-body-para-heading {

@@ -3,8 +3,9 @@
 =========================== */
 .article-main {
     width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 3em auto 0;
     gap: 2.5em;
 }
@@ -42,13 +43,30 @@
     /* ====================
         ARTICLE MAIN SECTION
     ======================= */
+    .article-main-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .article-main-header div {
+       max-width: 70%;
+    }
+
+    .profile-img {
+        width: 25%;
+        max-width: 220px;
+        margin-bottom: 0;
+    }
+
     .article-main-heading {
         font-size: 2.25rem;
     }
 
-    .article-main-img {
-        object-fit: cover;
-        max-height: 500px;
+    .article-main-body {
+        max-width: 80%;
+        margin-top: 2em;
     }
 
     .article-main-body-para-heading {

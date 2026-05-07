@@ -39,6 +39,15 @@ header div {
     /* ==================
         HEADER
     ===================== */
+    header {
+        height: 60vh;
+        margin-bottom: 4em;
+    }
+
+    header div {
+        max-width: 650px;
+    }
+
     .hero-article {
         font-size: 2.25rem;
     }

@@ -41,12 +41,17 @@
     /* ====================
         ARTICLE MAIN SECTION
     ======================= */
+    .article-main-header {
+        max-width: 850px;
+    }
+
     .article-main-heading {
         font-size: 2.25rem;
     }
 
     .article-main-img {
         object-fit: cover;
+        max-width: 970px;
         max-height: 500px;
     }
 

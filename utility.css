@@ -47,42 +47,6 @@ nav {
     text-decoration: underline;
 }
 
-/* ===================
-    ARTICLE MAIN SECTION
-====================== */
-.article-main {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 3em auto 0;
-    gap: 2.5em;
-}
-
-.article-main-img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.article-main-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2em;
-}
-
-.article-main-body-para {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-/* ==================
-    RECENT POSTS HEADING
-===================== */
-.recent-posts-heading {
-    text-align: center;
-    margin: 4em auto 2em;
-}
-
 /* =================
     ARTICLES SECTION
 ==================== */
@@ -100,7 +64,7 @@ section {
 .blog-img {
     width: 100%;
     height: 35vh;
-    border-radius: 8px;
+    border-radius: 4px;
     object-fit: cover;
 }
 
@@ -129,4 +93,28 @@ footer {
 
 .copyright {
     font-size: 0.75rem;
+}
+
+/* ================================
+    SCREEN SIZE BIGGER THAN 650PX
+=================================== */
+@media (min-width: 650px) {
+    /* ================
+        NAV
+    =================== */
+    .logo-title {
+        font-size: 1.125rem;
+    }
+
+    .nav-links {
+        font-size: 1.125rem;
+    }
+
+    /* ====================
+        ARTICLES SECTION
+    ======================= */
+    section {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 0 2em;
+    }
 }

@@ -1,8 +1,57 @@
-/* ================
-    PROFILE IMAGE
-=================== */
+/* ========================
+    ARTICLE MAIN SECTION
+=========================== */
+.article-main {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3em auto 0;
+    gap: 2.5em;
+}
+
 .profile-img {
     width: 40%;
     border-radius: 50%;
     margin-bottom: 2em;
+}
+
+.article-main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+
+.article-main-body-para {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* ==================
+    RECENT POSTS HEADING
+===================== */
+.recent-posts-heading {
+    text-align: center;
+    margin: 4em auto 2em;
+}
+
+/* =========================
+    MEDIA ATTRIBUTE
+============================ */
+@media (min-width: 650px) {
+    /* ====================
+        ARTICLE MAIN SECTION
+    ======================= */
+    .article-main-heading {
+        font-size: 2.25rem;
+    }
+
+    .article-main-img {
+        object-fit: cover;
+        max-height: 500px;
+    }
+
+    .article-main-body-para-heading {
+        font-size: 1.5rem;
+    }
 }

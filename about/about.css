@@ -36,6 +36,24 @@
     margin: 4em auto 2em;
 }
 
+/* ====================
+    VIEW MORE BUTTON
+======================= */
+.view-more-btn {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    display: block;
+    margin: 0 auto 2em;
+    cursor: pointer;
+}
+
+.view-more-btn:hover {
+    text-decoration: underline;
+}
+
 /* =========================
     MEDIA ATTRIBUTE
 ============================ */

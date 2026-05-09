@@ -43,7 +43,9 @@ function trackScreenSizeChange(e) {
 
         // REMOVE VIEW MORE BTN
         const viewMoreBtn = document.getElementById('view-more-btn')
-        viewMoreBtn.remove()
+        if(viewMoreBtn) {
+            viewMoreBtn.remove()
+        }
 
     }
 }

@@ -105,7 +105,7 @@ footer {
 }
 
 /* ================================
-    SCREEN SIZE BIGGER THAN 650PX
+        MEDIA QUERIES
 =================================== */
 @media (min-width: 700px) {
     /* ================
